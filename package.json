@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "frontend": "cd client && npm start",
     "dev:full": "concurrently \"npm run dev\" \"npm run frontend\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install:full": "npm install && cd client npm install"
   },
   "author": "fathisiddiqi",
   "license": "MIT",
