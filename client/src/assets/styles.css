@@ -1,0 +1,9 @@
+.btn-none {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.btn-none:focus {
+  outline: none;
+}
